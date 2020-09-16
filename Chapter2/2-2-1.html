@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using ems to define font-size</title>
+    <style>
+        body {
+            font-size: 16px;
+        }
+
+        .slogan {
+            font-size: 1.2em;
+            padding: 1.2em;
+            background-color: #ccc;
+        }
+
+        ul {
+            font-size: .8em;
+        }
+
+        ul ul {
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    We love coffee
+    <p class="slogan">We love coffee</p>
+    <ul>
+        <li>Top level
+            <ul>
+                <li>Second level
+                    <ul>
+                        <li>Third level
+                            <ul>
+                                <li>Fourth level
+                                    <ul>
+                                        <li>Fifth level</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
